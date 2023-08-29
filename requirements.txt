@@ -1,5 +1,11 @@
 Install the latest version of MYSQL Workbench or Shell. 
 Create the root user, and set the password. 
+Create database threeway.
+Use the database threeway and create a table audios. Refer to the following query:
+
+use threeway;
+create table audios(id int not null primary key auto_increment, filename varchar(50));
+
 Install  XAMPP Server to execute PHP files. 
 Start the Apache and MySQL in the XAMPP control panel.
 If you are unable to start Apache or mysql try changing the port numbers by clicking the config button.
