@@ -1,2 +1,9 @@
-Install latest version of MYSQL Workbench or Shell.
+Install the latest version of MYSQL Workbench or Shell. 
+Create the root user, and set the password. 
 Install  XAMPP Server to execute PHP files. 
+Start the Apache and MySQL in the XAMPP control panel.
+If you are unable to start Apache or mysql try changing the port numbers by clicking the config button.
+You are required to create an empty folder named uploads.
+Once created, right-click on the folder, and in the drop-down menu select properties. 
+Click security under the groups or username click administrative and allow full permission. 
+Execute the PHP file once the above steps are successfully completed.
